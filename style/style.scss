@@ -1,0 +1,101 @@
+
+$ceilSize: 100px;
+$gridSize: 307px;
+$borderSize: 2px;
+$borderColor: #0DA192;
+$backgroundColor: #14BDAC;
+$backgroundWin: #F2EBD3;
+$primaryColor: #545454;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color:$primaryColor;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+header{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h1{
+        margin: 3vh;
+    }
+    #playerInfo{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3vh;
+        h3{
+            margin-bottom: 2vh;
+        }
+    }
+    h2{
+        display: none;
+    }
+}
+
+body{
+    background-color: $backgroundColor;
+    main{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-around;
+        align-items: center;
+        border: none;
+      }
+}
+
+#grid{
+    width: $gridSize;
+    height: $gridSize;
+    // border: $borderSize solid $borderColor;
+
+    .row{
+        display: flex;
+        .ceil{
+            display: flex;
+            flex-direction: column;
+            width: $ceilSize ;
+            height: $ceilSize ;
+            border: $borderSize solid $borderColor;
+            border: 1 solid $borderColor;
+
+        }
+    }
+}
+
+button{
+    padding: 13px 25px;
+    background-color: $primaryColor;
+    color: $backgroundWin;
+    border: none;
+    border-radius: 10px;
+}
+
+#winner{
+    display:none;
+    height: $ceilSize;
+    margin-top: 5vh;
+}
+
+.ceil{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 43px;
+}
+
+footer{
+    text-align: center;
+    height: 10vh;
+}
+
+#playerTurn{
+    margin-top: 3vh;
+}
