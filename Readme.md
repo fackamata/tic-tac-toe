@@ -8,4 +8,4 @@ HTML, SCSS, JavaScript
 
 ## Play it
 
-(fackamata.github.io/tic-tac-toe)[https://fackamata.github.io/tic-tac-toe/]
+[fackamata.github.io/tic-tac-toe](https://fackamata.github.io/tic-tac-toe/)
